@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <span id="score-left">0</span>
+    <span id="title">PONG</span>
+    <span id="score-right">0</span>
+  </div>
+  <canvas id="game"></canvas>
+  <div id="overlay" class="show">
+    <h1>PONG</h1>
+    <div id="mode-btns">
+      <button data-mode="1p">🧑 1 Player</button>
+      <button data-mode="2p">👫 2 Players</button>
+    </div>
+    <p id="overlay-sub">Choose a mode to start</p>
+  </div>
+  <script src="src/constants.js"></script>
+  <script src="src/particle.js"></script>
+  <script src="src/ball.js"></script>
+  <script src="src/paddle.js"></script>
+  <script src="src/ai.js"></script>
+  <script src="src/game.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
